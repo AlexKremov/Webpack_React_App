@@ -1,0 +1,57 @@
+
+.item_container {
+    margin: 5% auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  img {
+    width: 64px;
+    height: 64px;
+    background-color: aqua;
+  }
+  
+  .item {
+    display: flex;
+    flex-direction: column;
+  }
+  .item_name, .total_price, .total_qty, .number_of_goods {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .item_description {
+    width: 250px;
+  }
+  input {
+    margin: 16px 10px;
+    height: 28px;
+  }
+  button {
+    margin: 16px 10px;
+  }
+  .edit, .save {
+    background-color: blue;
+  }
+  .delete {
+    background-color: red;
+  }
+  hr {
+    size: 3px;
+    color: black;
+    width: 750px;
+  }
+  .total_panel {
+    margin-left: 27%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .hidden {
+    display: none;
+  }
